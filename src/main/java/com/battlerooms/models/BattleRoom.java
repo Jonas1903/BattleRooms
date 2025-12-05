@@ -237,7 +237,7 @@ public class BattleRoom {
                 for (int z = minZ; z <= maxZ; z++) {
                     Location loc = new Location(world, x, y, z);
                     Block block = world.getBlockAt(loc);
-                    originalGateBlocks.put(loc.clone(), block.getType());
+                    originalGateBlocks.put(loc, block.getType());
                     block.setType(Material.BLUE_STAINED_GLASS);
                 }
             }

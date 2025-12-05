@@ -261,8 +261,9 @@ public class RoomManager {
     }
 
     private void announceWinner(BattleRoom room, Player winner) {
+        String winnerName = (winner != null && winner.getName() != null) ? winner.getName() : "Unknown";
         String message = configManager.getMessage("player-wins")
-                .replace("%winner%", winner != null ? winner.getName() : "Unknown")
+                .replace("%winner%", winnerName)
                 .replace("%room%", room.getName());
         Bukkit.broadcastMessage(message);
     }

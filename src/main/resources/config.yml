@@ -9,7 +9,6 @@ messages:
   room-closed: "&cThis room is currently in a battle!"
   commands-disabled: "&cYou cannot use commands while in a battle!"
   player-wins: "&a%winner% has won the battle in %room%!"
-  team-wins: "&aTeam has won the battle in %room%!"
   room-reopening: "&eThe room %room% is reopening..."
 
 # Rooms configuration (auto-generated, do not edit manually)

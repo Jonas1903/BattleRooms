@@ -81,7 +81,7 @@ rooms: {}
 ## Build Instructions
 
 ### Requirements
-- Java 22
+- Java 17+
 - Maven 3.6+
 - IntelliJ IDEA (recommended)
 
@@ -112,7 +112,7 @@ mvn clean package
 
 - **Minecraft Version**: 1.21.8
 - **API**: Paper/Spigot 1.21
-- **Java Version**: 22
+- **Java Version**: 17+
 - **Build Tool**: Maven
 
 ## Room States
