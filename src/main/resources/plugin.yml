@@ -1,0 +1,21 @@
+name: BattleRooms
+version: ${project.version}
+main: com.battlerooms.BattleRooms
+api-version: '1.21'
+description: A PvP arena plugin with 1v1 and 2v2 battle rooms
+author: BattleRooms Team
+
+commands:
+  battlerooms:
+    description: Main command for BattleRooms plugin
+    usage: /<command> <subcommand> [args]
+    aliases: [br, arena]
+    permission: battlerooms.admin
+
+permissions:
+  battlerooms.admin:
+    description: Allows access to all BattleRooms admin commands
+    default: op
+  battlerooms.bypass:
+    description: Allows bypassing command restrictions in rooms
+    default: op
